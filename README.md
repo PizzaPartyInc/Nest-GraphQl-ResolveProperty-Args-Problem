@@ -44,7 +44,7 @@ query GetData($criteria: CriteriaDto) {
 }
 ```
 
-    - With Query variable values like this:
+- With Query variable values like this:
 
 ```json
 {
@@ -56,4 +56,4 @@ query GetData($criteria: CriteriaDto) {
 }
 ```
 
-    - I this case, value will be available inside info parameter, variableValues property
+- In this case, value will be available inside info parameter, variableValues property
